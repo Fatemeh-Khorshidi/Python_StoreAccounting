@@ -1,11 +1,13 @@
-"""
-initial class for things and materials
-مدیر فروشگاه اجناس را تعریف میکند: برای هر جنس بارکد، قیمت، برند، نام کالا و تعداد موجودی آن را
-مشخص میکند.
-"""
+import pandas as pd
 
 
 class Products:
+    """
+    initial class for things and materials
+    مدیر فروشگاه اجناس را تعریف میکند: برای هر جنس بارکد، قیمت، برند، نام کالا و تعداد موجودی آن را
+    مشخص میکند.
+    """
+
     def __init__(self, barcode, price, brand, name, amount):
         self.barcode = barcode
         self.price = price
@@ -13,25 +15,17 @@ class Products:
         self.name = name
         self.amount = amount
 
-    @staticmethod
-    def creat_product():
+    def show_products(self):
+        file_path = 'Products.csv'
         """
-        this function get kala from admin
-        :return:
+        read specific columns (brand,name,price) of csv file using Pandas
         """
-        barcode, price, brand, name, amount = input("enter them").split("|")
-        kala = Products(barcode, int(price), brand, name, int(amount))
-        return kala
+        all_products = pd.read_csv(file_path, usecols=['brand', 'name', 'price'])
+        print(all_products)
 
-    def add_to_file(self):
-        """
-        create a svg file and save the items in it
-        :return:
-        """
-        with open("Products.csv", 'x') as Products_info:
-            Products_info.write("user infos")
-
-
+    """
+    Alert the zero number of products
+    """
 
     def __str__(self):
         """
@@ -50,5 +44,5 @@ class Products:
 #
 # print(list)
 
-# Products.add_to_file = classmethod(Products.add_to_file )
-# Products.add_to_file()
+# Products.show_products = classmethod(Products.show_products )
+# Products.show_products()
