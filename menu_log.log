@@ -1,0 +1,55 @@
+15-May-21 - INFO- kala1 was sold.
+15-May-21 - ERROR- Exception occured, user enter invalid input
+Traceback (most recent call last):
+  File "C:\Users\Fatemeh\PycharmProjects\pythonProject\menu.py", line 193, in customer_menu
+    customer_amount = int(input(f"how many {user_choice} do you want"))
+ValueError: invalid literal for int() with base 10: ''
+15-May-21 - INFO- kala1 was sold.
+15-May-21 - INFO- kala1 was sold.
+15-May-21 - INFO- kala2 was sold.
+15-May-21 - ERROR- Exception occured, user enter invalid input
+Traceback (most recent call last):
+  File "C:\Users\Fatemeh\PycharmProjects\pythonProject\menu.py", line 66, in menu
+    user_ = User.login(username)
+TypeError: login() missing 1 required positional argument: 'password'
+15-May-21 - ERROR- Exception occured, user enter invalid input
+Traceback (most recent call last):
+  File "C:\Users\Fatemeh\PycharmProjects\pythonProject\menu.py", line 66, in menu
+    user_ = User.login(username)
+TypeError: login() missing 1 required positional argument: 'password'
+15-May-21 - WARNING- wrong password was enter
+15-May-21 - WARNING- password dosent changed
+15-May-21 - WARNING- password dosent changed
+15-May-21 - INFO- Admin is login right now!
+15-May-21 - ERROR- Exception occured, user enter invalid input
+Traceback (most recent call last):
+  File "C:\Users\Fatemeh\PycharmProjects\pythonProject\menu.py", line 77, in menu
+    if item['amount'] == 0:
+TypeError: string indices must be integers
+15-May-21 - INFO- new product created by name kala10
+15-May-21 - INFO- Admin is register
+15-May-21 - INFO- Admin is register
+15-May-21 - INFO- Admin is register
+15-May-21 - INFO- Admin is register
+15-May-21 - INFO- Admin is register
+15-May-21 - WARNING- user was not admin
+15-May-21 - INFO- Admin is register
+15-May-21 - INFO- Admin is register
+15-May-21 - INFO- Admin is register
+15-May-21 - WARNING- login without register is not true!!
+15-May-21 - WARNING- something is wrong 
+15-May-21 - INFO- Admin is register
+15-May-21 - INFO- Admin is register
+15-May-21 - WARNING- login without register is not true!!
+19-May-21 - INFO- Admin is login right now!
+19-May-21 - ERROR- product wasnt create
+19-May-21 - INFO- kala10 was sold.
+19-May-21 - WARNING- something is wrong 
+20-May-21 - INFO- Admin is login right now!
+20-May-21 - INFO- Admin is login right now!
+20-May-21 - INFO- Admin is login right now!
+20-May-21 - INFO- Admin is login right now!
+20-May-21 - WARNING- login without register is not true!!
+20-May-21 - WARNING- login without register is not true!!
+20-May-21 - WARNING- login without register is not true!!
+20-May-21 - INFO- Admin is login right now!

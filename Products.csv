@@ -1,3 +1,8 @@
-barcode,price,brand,name,amount
-11111,11,adidas,kala1,1
-222,5,adidas,kala2,20
+name,brand,barcode,price,amount
+kala1,adidas,654564,5,85
+kala2,adidas,654564,5,18
+kala3,adidas,654564,5,38
+kala4,adidas,654564,5,15
+kala5,adidas,654564,5,50
+kala6,adidas,654564,5,0
+kala10,sdas,546565456,50,0
